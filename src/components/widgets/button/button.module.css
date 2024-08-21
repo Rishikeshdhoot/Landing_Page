@@ -1,0 +1,44 @@
+@import url("../../../constants/css-constants/colors.css");
+@import url("../../../constants/css-constants/spacing.css");
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--border-radius-small);
+  background-color: var(--primary-color);
+  cursor: pointer;
+  user-select: none;
+}
+
+.buttonText {
+  text-align: center;
+  color: var(--white-color);
+  background-color: transparent;
+}
+
+.iconSmall {
+  width: 15px;
+  height: 15px;
+  margin-right: var(--margin-medium);
+  background-color: var(--primary-color);
+}
+
+.iconMedium {
+  width: 20px;
+  height: 20px;
+  margin-right: var(--margin-medium);
+  background-color: var(--primary-color);
+}
+
+.iconLarge {
+  width: 30px;
+  height: 30px;
+  margin-right: var(--margin-medium);
+  background-color: var(--primary-color);
+}
+
+.iconSize {
+  width: var(--width-full);
+  height: var(--height-full);
+}

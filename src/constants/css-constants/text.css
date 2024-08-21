@@ -1,0 +1,20 @@
+:root {
+  --font-size-small: 14px;
+  --font-size-medium: 16px;
+  --font-size-extra-medium: 18px;
+  --font-size-large: 20px;
+  --font-size-extra-large: 22px;
+
+  --line-height-small: 1.2;
+  --line-height-medium: 1.4;
+  --line-height-large: 1.6;
+
+  --text-color: #333333;
+  --text-color-secondary: #666666;
+
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extra-bold: 800;
+}

@@ -1,0 +1,24 @@
+:root {
+  --width-full: 100%;
+  --height-full: 100%;
+
+  --width-half: 50%;
+  --height-half: 50%;
+
+  --padding-small: 4px;
+  --padding-medium: 8px;
+  --padding-large: 20px;
+
+  --margin-small: 4px;
+  --margin-medium: 8px;
+  --margin-large: 20px;
+
+  --space-small: 6px;
+  --space-medium: 12px;
+  --space-large: 18px;
+  --space-extra-large: 20px;
+
+  --border-radius-small: 4px;
+  --border-radius-medium: 8px;
+  --border-radius-large: 12px;
+}

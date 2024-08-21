@@ -1,0 +1,78 @@
+@media screen and (min-width: 1025px) {
+  .ServiceTypeBoxContainer {
+    display: flex;
+    padding: 5px 5px 5px 5px;
+    border-radius: 6px;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+  }
+  .radioButton {
+    margin-right: 10px;
+  }
+
+  .serviceTypeTextHeader {
+    color: #585858;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .serviceTypeSlogan {
+    color: #9e9c9c;
+    font-size: 10px;
+    font-weight: 600;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1025px) {
+  .ServiceTypeBoxContainer {
+    display: flex;
+    padding: 5px 5px 5px 5px;
+    border-radius: 6px;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+  }
+  .radioButton {
+    margin-right: 10px;
+  }
+
+  .serviceTypeTextHeader {
+    color: #585858;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .serviceTypeSlogan {
+    color: #9e9c9c;
+    font-size: 10px;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .ServiceTypeBoxContainer {
+    display: flex;
+    padding: 5px 5px 5px 5px;
+    border-radius: 6px;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    margin-top: 10px;
+  }
+  .radioButton {
+    margin-right: 10px;
+  }
+
+  .serviceTypeTextHeader {
+    color: #585858;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .serviceTypeSlogan {
+    color: #9e9c9c;
+    font-size: 10px;
+    font-weight: 600;
+  }
+}

@@ -1,0 +1,192 @@
+@import url("../../../constants/css-constants/colors.css");
+@import url("../../../constants/css-constants/spacing.css");
+@import url("../../../constants/css-constants/text.css");
+
+@media screen and (min-width: 1025px) {
+  .footerContainer {
+    margin-top: 5%;
+    width: var(--width-full);
+    min-height: 340px;
+    display: flex;
+    background-color: var(--primary-color);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footerContent {
+    width: calc(var(--width-full) - 10%);
+    display: flex;
+    background-color: var(--primary-color);
+    justify-content: space-between;
+  }
+
+  .footerCompanySection {
+    width: calc(var(--width-full) - 70%);
+    background-color: var(--primary-color);
+  }
+
+  .companyNameFooter {
+    font-size: 30px;
+    letter-spacing: 4px;
+    color: white;
+    background-color: var(--primary-color);
+    font-weight: var(--font-weight-semibold);
+  }
+
+  .footerItem {
+    font-size: var(--font-size-extra-medium);
+    color: white;
+    margin-top: var(--space-extra-large);
+    background-color: var(--primary-color);
+
+    user-select: none;
+  }
+
+  .bodyImageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 150px;
+    height: 170px;
+    background-color: transparent;
+  }
+  .skeletonImageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 260px;
+    height: 280px;
+    background-color: transparent;
+  }
+  .bodyImage {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .footerContainer {
+    margin-top: 5%;
+    width: var(--width-full);
+    min-height: 340px;
+    display: flex;
+    background-color: var(--primary-color);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footerContent {
+    width: calc(var(--width-full) - 10%);
+    display: flex;
+    background-color: var(--primary-color);
+    justify-content: space-between;
+  }
+
+  .footerCompanySection {
+    width: calc(var(--width-full) - 70%);
+    background-color: var(--primary-color);
+  }
+
+  .companyNameFooter {
+    font-size: 26px;
+    letter-spacing: 2px;
+    color: white;
+    background-color: var(--primary-color);
+    font-weight: var(--font-weight-semibold);
+  }
+
+  .footerItem {
+    font-size: var(--font-size-medium);
+    color: white;
+    margin-top: var(--space-extra-large);
+    background-color: var(--primary-color);
+    user-select: none;
+  }
+
+  .bodyImageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 110px;
+    height: 130px;
+    background-color: transparent;
+  }
+
+  .bodyImage {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footerContainer {
+    margin-top: 5%;
+    width: var(--width-full);
+    min-height: 340px;
+    display: flex;
+    background-color: var(--primary-color);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footerContent {
+    width: calc(var(--width-full) - 10%);
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-color);
+    justify-content: space-between;
+  }
+
+  .footerCompanySection {
+    margin-top: 6vh;
+    margin-bottom: 4vh;
+
+    background-color: var(--primary-color);
+  }
+
+  .companyNameFooter {
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: white;
+    background-color: var(--primary-color);
+    font-weight: var(--font-weight-medium);
+  }
+
+  .footerItem {
+    color: white;
+    font-size: var(--font-size-small);
+    margin: var(--space-medium) 0 var(--space-large) 0;
+    background-color: var(--primary-color);
+    /* margin-top: 6vh; */
+    user-select: none;
+  }
+
+  .bodyImageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 150px;
+    height: 170px;
+    background-color: transparent;
+  }
+  .skeletonImageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 170px;
+    height: 170px;
+    background-color: red;
+  }
+  .bodyImage {
+    width: 100%;
+    height: 100%;
+  }
+}

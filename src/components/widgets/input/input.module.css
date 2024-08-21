@@ -1,0 +1,89 @@
+@media screen and (min-width: 1025px) {
+  .inputContainer {
+    margin-bottom: 10px;
+  }
+
+  .inputBox {
+    width: 100%;
+    margin-top: 4px;
+    border: 1px solid rgb(211, 208, 208);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid var(--primary-color);
+  }
+
+  .labelText {
+    color: rgb(58, 58, 58);
+  }
+
+  .inputStyle {
+    width: 100%;
+    padding: 0 5px 0 5px;
+    border: none;
+    outline: none;
+    padding: 4px;
+    font-size: 15px;
+    color: rgb(58, 58, 58);
+    height: 25px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .inputContainer {
+    margin-bottom: 10px;
+  }
+
+  .inputBox {
+    width: 100%;
+    margin-top: 4px;
+    border: 1px solid rgb(211, 208, 208);
+    border-radius: 8px;
+    border: 1px solid var(--primary-color);
+    overflow: hidden;
+  }
+
+  .labelText {
+    color: rgb(58, 58, 58);
+  }
+
+  .inputStyle {
+    width: 100%;
+    padding: 0 5px 0 5px;
+    border: none;
+    outline: none;
+    padding: 4px;
+    font-size: 15px;
+    color: rgb(58, 58, 58);
+    height: 18px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .inputContainer {
+    margin-bottom: 10px;
+  }
+
+  .inputBox {
+    width: 100%;
+    margin-top: 4px;
+    border: 1px solid rgb(211, 208, 208);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid var(--primary-color);
+  }
+
+  .labelText {
+    color: rgb(58, 58, 58);
+  }
+
+  .inputStyle {
+    width: 100%;
+    padding: 0 5px 0 5px;
+    border: none;
+    outline: none;
+    padding: 4px;
+    font-size: 15px;
+    color: rgb(58, 58, 58);
+    height: 25px;
+  }
+}

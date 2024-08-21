@@ -1,0 +1,25 @@
+:root {
+  /* --primary-color: #4d77ff; */
+  /* --primary-color: #1d617a; */
+  /* --primary-color: #65c5b9; */
+  --primary-color: #65c5b9;
+
+  /* --primary-color: #ffffff; */
+
+  /* --primary-color: #06daff; */
+  /* --primary-color: #00414d; */
+  /* --primary-color: #1d617a; */
+  /* --primary-color: #1e3e71; */
+  --primary-color: #00acb1;
+
+  --primary-dim-color: #65c5b9;
+
+  --error-color:#a8201a
+
+  /* --primary-color:#0071e2; */
+  --secondary-color: #ffff;
+  /* --text-secondary-color: #6c7780; */
+  --text-secondary-color: #414b53;
+
+  --white-color: #ffff;
+}

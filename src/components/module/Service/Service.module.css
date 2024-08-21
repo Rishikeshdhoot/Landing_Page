@@ -1,0 +1,157 @@
+@import url("../../../constants/css-constants/colors.css");
+@import url("../../../constants/css-constants/spacing.css");
+@import url("../../../constants/css-constants/text.css");
+
+@media screen and (min-width: 1025px) {
+  .serviceContainer {
+    padding: 0 20px 0 20px;
+    margin-top: var(--margin-medium);
+  }
+  .upperSection {
+    display: flex;
+  }
+
+  .upperSectionTextContent {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .serviceHeaderText {
+    color: var(--primary-color);
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 4%;
+  }
+
+  .serviceParagraphText {
+    width: 90%;
+    color: var(--text-secondary-color);
+    text-align: center;
+    font-size: 16px;
+    /* letter-spacing:2px */
+  }
+
+  .upperSectionImageContainer {
+    width: 60%;
+    height: var(--height-full);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .illustratorBox {
+    width: 65%;
+    height: var(--height-full);
+  }
+  .illustrator {
+    width: var(--width-full);
+    height: var(--height-full);
+  }
+  .serViceBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .serviceContainerContent {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    gap:2%;
+    /* justify-content: space-between; */
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1025px) {
+  .serviceContainer {
+    padding: 0 20px 0 20px;
+    margin-top: var(--margin-medium);
+  }
+
+  .upperSection {
+    display: flex;
+  }
+
+  .upperSectionTextContent {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+  }
+
+  .serviceHeaderText {
+    color: var(--primary-color);
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 4%;
+  }
+
+  .serviceParagraphText {
+    width: 90%;
+    color: var(--text-secondary-color);
+    /* text-align: center; */
+    font-size: 12px;
+  }
+
+  .upperSectionImageContainer {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .illustratorBox {
+    width: 65%;
+    height: 280px;
+  }
+
+  .illustrator {
+    width: var(--width-full);
+    height: var(--height-full);
+  }
+
+  .serviceContainerContent {
+    padding-left: 6%;
+    padding-right: 6%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .serviceContainer {
+    padding: 0 20px 0 20px;
+    margin-top: var(--margin-large);
+  }
+
+  .upperSection {
+    display: flex;
+  }
+
+  .upperSectionTextContent {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .serviceHeaderText {
+    color: var(--primary-color);
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 4%;
+  }
+
+  .serviceParagraphText {
+    color: var(--text-secondary-color);
+    font-size: 20px;
+  }
+
+  .serviceContainerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

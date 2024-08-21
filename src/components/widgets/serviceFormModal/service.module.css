@@ -1,0 +1,194 @@
+@media screen and (min-width: 1025px) {
+  .modalContent {
+    width: 60%;
+    min-height: 500px;
+    background-color: #fff;
+    padding: 20px 40px 20px 30px;
+    border-radius: 6px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .formContent {
+    display: flex;
+    flex-direction: column;
+  }
+  .closeButton {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    border: 0.2px solid rgb(134, 134, 134);
+  }
+
+  .closeIcon {
+    width: 50%;
+    height: 50%;
+  }
+
+  .selectedService {
+    font-size: 30px;
+    color: var(--primary-color);
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+  }
+
+  .name_phone_section {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .radioButtonBox {
+    /* width: 50%; */
+    display: flex;
+    margin: 6px 0 6px 0;
+  }
+  .serviceTypeContainer {
+    margin-top: 4vh;
+  }
+  .serviceTypeText {
+    color: rgb(58, 58, 58);
+  }
+  .buttonSection {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1025px) {
+  .modalContent {
+    width: 60%;
+    min-height: 500px;
+    background-color: #fff;
+    padding: 20px 40px 20px 30px;
+    border-radius: 6px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .closeButton {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    border: 0.2px solid rgb(134, 134, 134);
+  }
+
+  .closeIcon {
+    width: 50%;
+    height: 50%;
+  }
+
+  .selectedService {
+    font-size: 30px;
+    color: var(--primary-color);
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+  }
+
+  .name_phone_section {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .radioButtonBox {
+    /* width: 50%; */
+    display: flex;
+    margin: 6px 0 6px 0;
+  }
+  .serviceTypeContainer {
+    margin-top: 2vh;
+  }
+  .serviceTypeText {
+    color: rgb(58, 58, 58);
+  }
+  .buttonSection {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .modalContent {
+    width: 60%;
+    min-height: 500px;
+    background-color: #fff;
+    padding: 20px 40px 20px 30px;
+    border-radius: 6px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .closeButton {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    border: 0.2px solid rgb(134, 134, 134);
+  }
+
+  .closeIcon {
+    width: 50%;
+    height: 50%;
+  }
+
+  .selectedService {
+    font-size: 30px;
+    color: var(--primary-color);
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+  }
+
+  .name_phone_section {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .radioButtonBox {
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0 8px 0;
+  }
+  .serviceTypeContainer {
+    margin-top: 2vh;
+  }
+  .serviceTypeText {
+    color: rgb(58, 58, 58);
+  }
+  .buttonSection {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}

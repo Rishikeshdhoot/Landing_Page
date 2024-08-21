@@ -1,0 +1,147 @@
+@import url("../../../constants/css-constants/colors.css");
+@import url("../../../constants/css-constants/spacing.css");
+@import url("../../../constants/css-constants/text.css");
+
+@media screen and (max-width: 415px) {
+  .logoBox {
+    color: var(--white-color);
+  }
+
+  .resumeBox {
+    width: 20%;
+    padding: 4px;
+    color: var(--white-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: #e52d27;
+    font-weight: 500;
+  }
+}
+
+.navbar {
+  position: sticky;
+  top: 0px;
+  padding: var(--padding-medium);
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white-color);
+  overflow: hidden;
+}
+
+.headerBox {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoBox {
+  width: 100px;
+  display: flex;
+  color: var(--primary-color);
+  font-size: 23px;
+  letter-spacing: 3px;
+  font-weight: bolder;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+}
+
+.navBox {
+  min-width: 90%;
+  padding: var(--padding-small);
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.linkBox {
+  display: flex;
+  width: 55%;
+  justify-content: space-around;
+}
+
+.authLinkBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 20%;
+}
+
+.route {
+  font-weight: 500;
+  padding: var(--padding-medium);
+  cursor: pointer;
+  user-select: none;
+  text-decoration: none;
+  color: #000;
+}
+.route:hover {
+  font-weight: 500;
+  padding: var(--padding-medium);
+  cursor: pointer;
+  user-select: none;
+  text-decoration: none;
+  color: var(--white-color);
+  background-color: var(--primary-color);
+  border-radius: 4px;
+}
+
+.activeRoute {
+  font-weight: 500;
+  padding: var(--padding-medium);
+  cursor: pointer;
+  user-select: none;
+  text-decoration: none;
+  color: var(--white-color);
+  background-color: var(--primary-color);
+  border-radius: 4px;
+}
+
+.authActiveButton {
+  padding: 8px;
+  color: var(--white-color);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+  text-decoration: none;
+}
+.authButton {
+  padding: 8px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.humberBox {
+  color: var(--white-color);
+  width: 30px;
+  height: 25px;
+}
+
+.humberIcon {
+  background-color: var(--white-color);
+  width: 100%;
+  height: 100%;
+}
+
+.humberDrop {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+  list-style-type: none;
+  background-color: var(--white-color);
+}

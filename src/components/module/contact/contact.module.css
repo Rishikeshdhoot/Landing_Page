@@ -1,0 +1,255 @@
+@import url("../../../constants/css-constants/colors.css");
+@import url("../../../constants/css-constants/spacing.css");
+@import url("../../../constants/css-constants/text.css");
+
+@media screen and (min-width: 1025px) {
+  .coverContainer {
+    position: relative;
+  }
+  .CoverPicBox {
+    width: 100%;
+    height: 500px;
+  }
+
+  .CoverPic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .form {
+    width: 30%;
+    position: absolute;
+    top: 6%;
+    right: 3%;
+  }
+
+  .highlightLine {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 35px;
+    color: #fff;
+    background-color: transparent;
+    font-weight: 900;
+    letter-spacing: 4px;
+    margin-bottom: 12px;
+    user-select: none;
+  }
+
+  .informationSection {
+    margin-top: 4%;
+    display: flex;
+    height: 480px;
+    justify-content: center;
+  }
+
+  .contactResourceSection {
+    width: 45%;
+    height: 100%;
+  }
+
+  .contactResourceSectionTextContainer {
+    /* margin-bottom: 20px; */
+    height: 20%;
+  }
+
+  .contactResourceSectionHeader {
+    font-size: 35px;
+    color: var(--primary-color);
+    font-weight: 900;
+    letter-spacing: 3px;
+  }
+
+  .contactResourceSectionSlogan {
+    font-size: 20px;
+    color: #6c7780;
+    font-weight: 500;
+    letter-spacing: 2px;
+  }
+
+  .resourceContainer {
+    height: 55%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .googleMapSection {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    height: 100%;
+  }
+
+  .map {
+    width: 70%;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .ContactContainer {
+    margin-top: var(--margin-medium);
+  }
+  .coverContainer {
+    height: 50vh;
+    position: relative;
+  }
+  .CoverPicBox {
+    width: 100%;
+    height: 400px;
+  }
+
+  .CoverPic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .form {
+    width: 30%;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+  }
+
+  .highlightLine {
+    position: absolute;
+    top: 18%;
+    left: 8%;
+    width: 35%;
+    font-size: 28px;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 900;
+    letter-spacing: 4px;
+  }
+
+  .informationSection {
+    display: flex;
+    margin-top: 4%;
+    padding: 0 20px 0 20px;
+  }
+
+  .contactResourceSection {
+    width: 50%;
+    padding-right: 10%;
+    height: 100%;
+  }
+
+  .contactResourceSectionTextContainer {
+    height: 15%;
+  }
+
+  .contactResourceSectionHeader {
+    font-size: 25px;
+    color: var(--primary-color);
+    font-weight: 900;
+    letter-spacing: 3px;
+  }
+
+  .contactResourceSectionSlogan {
+    font-size: 12px;
+    color: #6c7780;
+    font-weight: 500;
+    letter-spacing: 2px;
+  }
+
+  .resourceContainer {
+    height: 55%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .googleMapSection {
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 260px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .ContactContainer {
+    margin-top: var(--margin-medium);
+    padding: 0 20px 0 20px;
+  }
+
+  .formBox {
+    /* margin-top: 10% 0 10% 0; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+  .highlightLine {
+    width: 100%;
+    font-size: 35px;
+    color: var(--primary-color);
+    font-weight: 900;
+    letter-spacing: 4px;
+  }
+  .slogan {
+    width: 100%;
+    font-size: 16px;
+    color: #6c7780;
+    margin: 6px 0 10px 0;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  .informationSection {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+  }
+
+  .contactResourceSectionTextContainer {
+    height: 15%;
+  }
+
+  .contactResourceSectionHeader {
+    font-size: 25px;
+    color: var(--primary-color);
+    font-weight: 900;
+    letter-spacing: 3px;
+  }
+
+  .contactResourceSectionSlogan {
+    font-size: 12px;
+    color: #6c7780;
+    font-weight: 500;
+    letter-spacing: 2px;
+  }
+
+  .resourceContainer {
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .googleMapSection {
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10%;
+  }
+}

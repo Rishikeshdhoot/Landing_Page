@@ -1,0 +1,27 @@
+.DropDownListContainer {
+  margin-bottom: 10px;
+}
+.DropDownListHeader {
+  color: rgb(58, 58, 58);
+}
+.dropDownViewContentContainer {
+  display: flex;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid rgb(211, 208, 208);
+  border-radius: 8px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.listControlIconBox {
+  width: 18px;
+  height: 12px;
+  border-left: 2px solid rgb(211, 208, 208);
+  padding-left: 6px;
+}
+
+.listControlIcon {
+  width: 100%;
+  height: 100%;
+}

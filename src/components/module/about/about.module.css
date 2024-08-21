@@ -1,0 +1,146 @@
+@media screen and (min-width: 1025px) {
+  .aboutContainer {
+    padding: 0 20px 0 20px;
+    margin-top: 20px;
+  }
+  .headerSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 20px;
+  }
+
+  .headerSectionContantContainer {
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aboutSectionTaxtHeader {
+    color: var(--primary-color);
+    font-size: 35px;
+    font-weight: 600;
+  }
+
+  .aboutSectionTaxtParagraph {
+    color: #6c7780;
+    font-size: 16px;
+  }
+
+  .aboutImageBox {
+    width: 50%;
+    height: 400px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .aboutImage {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+
+  .aboutSectionCard {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin-top: 5%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .aboutContainer {
+    padding: 0 20px 0 20px;
+    margin-top: 20px;
+  }
+
+  .headerSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .headerSectionContantContainer {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aboutSectionTaxtHeader {
+    color: var(--primary-color);
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .aboutSectionTaxtParagraph {
+    color: #6c7780;
+    font-size: 12px;
+  }
+
+  .aboutImageBox {
+    width: 50%;
+    height: 250px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .aboutImage {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+  }
+
+  .aboutSectionCard {
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+    margin-top: 5%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .aboutContainer {
+    padding: 0 20px 0 20px;
+    margin-top: 20px;
+  }
+
+  .headerSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .headerSectionContantContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aboutSectionTaxtHeader {
+    color: var(--primary-color);
+    font-size: 35px;
+    font-weight: 700;
+  }
+
+  .aboutSectionTaxtParagraph {
+    color: #6c7780;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+  }
+
+  .aboutImageBox {
+    display: none;
+  }
+
+  .aboutSectionCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+  }
+}

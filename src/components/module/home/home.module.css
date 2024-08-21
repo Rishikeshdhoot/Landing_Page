@@ -1,0 +1,608 @@
+@import url("../../../constants/css-constants/colors.css");
+@import url("../../../constants/css-constants/spacing.css");
+@import url("../../../constants/css-constants/text.css");
+/* @media screen and (min-width: 320px) and (max-width: 360px) {
+
+} */
+
+@media screen and (min-width: 1025px) {
+  .homeContainer {
+    width: var(--width-full);
+  }
+  .coverPicSection {
+    width: var(--width-full);
+    height: 84vh;
+  }
+  .showServiceContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+  }
+  .showServiceBox {
+    width: 60%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .upperSectionChips {
+    display: flex;
+  }
+  .serviceBox {
+    position: absolute;
+    top: 20%;
+    left: 6%;
+    border-radius: var(--border-radius-medium);
+    padding: var(--padding-large);
+    width: 25%;
+    min-height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .coverPicText {
+    color: rgb(63, 63, 63);
+    line-height: var(--line-height-medium);
+    letter-spacing: 0.8px;
+    font-size: var(--font-size-small);
+    margin-bottom: 6px;
+    background-color: transparent;
+  }
+
+  .boxSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .videoSection {
+    padding: 0px 0px 0px 20px;
+    height: 60vh;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .videoBox {
+    width: 45%;
+    height: 90%;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .videoTextParagraphSection {
+    width: 45%;
+    margin-right: 5%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    color: var(--text-secondary-color);
+    line-height: var(--line-height-large);
+    font-size: var(--font-size-extra-medium);
+  }
+
+  .videoTextHeaderSection {
+    width: 80%;
+    height: 25vh;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    color: var(--primary-color);
+    letter-spacing: 4px;
+  }
+
+  .buttonMoveServiceSection {
+    margin: 4% 6% 0 0;
+  }
+
+  .videoConverPic {
+    width: var(--width-full);
+    height: var(--height-full);
+    resize: none;
+  }
+  .conditionContainer {
+    margin-top: 6%;
+    padding: 0 20px 0 20px;
+    display: flex;
+  }
+  .applicationAddBox {
+    margin-top: 5vh;
+    padding: 0 20px 0 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .conditionContentContainer {
+    margin-top: 5vh;
+    padding: 0 20px 0 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .applicationAddTextBox {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .applicationAddTextContent h2 {
+    color: var(--primary-color);
+    font-size: calc(var(--font-size-large) + 15px);
+  }
+
+  .applicationAddTextContent p {
+    font-size: var(--font-size-extra-medium);
+    line-height: var(--line-height-large);
+    color: var(--text-secondary-color);
+  }
+
+  .appDownloadButtonSection {
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+  }
+
+  .healthCareIllustratorContainer {
+    width: var(--width-half);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .healthCareIllustratorBox {
+    width: 550px;
+    height: 400px;
+  }
+
+  .healthCareIllustrator {
+    width: 100%;
+    height: 100%;
+  }
+  .VideoPlayer {
+    width: 200px;
+    height: 22px;
+    display: "flex";
+    justify-content: center;
+    align-items: center;
+  }
+  .playButton {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    background-color: transparent;
+  }
+  .playButtonIconStyle {
+    width: 100%;
+    height: 100%;
+  }
+
+  .servicesBox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .anatomyImageContainer {
+    width: var(--width-half);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .anatomyImageBox {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .anatomyImage {
+    width: 100%;
+    height: 100%;
+    resize: none;
+  }
+  .chipsBox {
+    /* min-width: 40px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 6px 8px 6px 8px;
+    height: 16px;
+    border-radius: 8px;
+    margin: 0px 4px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    user-select: none;
+    border: 1px solid var(--primary-color);
+    background-color: #ffffff;
+    color: var(--primary-color);
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .coverPicSection {
+    width: var(--width-full);
+    height: 40vh;
+    position: relative;
+  }
+
+  .showServiceContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+
+  .showServiceBox {
+    padding: 10px 10px 10px 10px;
+    min-width: 60%;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .upperSectionChips {
+    display: flex;
+  }
+
+  .chipsBox {
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    padding: 6px 8px 6px 8px;
+    height: 16px;
+    border-radius: 8px;
+    margin: 0px 4px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    user-select: none;
+    border: 1px solid var(--primary-color);
+    background-color: #ffffff;
+    color: var(--primary-color);
+  }
+
+  .buttonMoveServiceSection {
+    width: 30%;
+  }
+
+  .coverPicText {
+    line-height: var(--line-height-medium);
+    font-size: 12px;
+    text-align: center;
+    color: rgb(63, 63, 63);
+    margin-bottom: 10px;
+  }
+
+  .boxSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .videoSection {
+    padding: 0px 20px 0 20px;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+
+    /* background-color: red; */
+  }
+
+  .videoBox {
+    width: 50%;
+    /* height: 23vh; */
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .videoSectionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0 20px 0 20px; */
+  }
+
+  .videoTextHeaderSection {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--primary-color);
+    letter-spacing: 4px;
+  }
+
+  .videoTextParagraphSection {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    color: var(--text-secondary-color);
+    line-height: var(--line-height-small);
+    font-size: var(--font-size-extra-small);
+  }
+
+  .videoParagraph {
+    /* color: var(--text-secondary-color); */
+    /* line-height: var(--line-height-medium); */
+    font-size: 15px;
+    margin-bottom: 2vh;
+    /* margin: 0 0 4% 0; */
+  }
+
+  .videoConverPic {
+    width: var(--width-full);
+    height: var(--height-full);
+  }
+
+  .conditionContentContainer {
+    margin-top: 4%;
+    padding: 0 20px 0 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .conditionContainer {
+    display: flex;
+    margin-top: 4%;
+    padding: 0 20px 0 20px;
+  }
+
+  .anatomyImageContainer {
+    width: var(--width-half);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .anatomyImageBox {
+    width: 70%;
+    height: 100%;
+    resize: none;
+  }
+
+  .anatomyImage {
+    width: 100%;
+    height: 100%;
+    resize: none;
+  }
+
+  .applicationAddBox {
+    margin-top: 4%;
+    padding: 0 20px 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .applicationAddTextBox {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .applicationAddTextContent h2 {
+    color: var(--primary-color);
+    font-size: calc(var(--font-size-small) + 15px);
+  }
+
+  .applicationAddTextContent p {
+    font-size: var(--font-size-extra-small);
+    color: var(--text-secondary-color);
+  }
+
+  .appDownloadButtonSection {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .healthCareIllustratorContainer {
+    width: var(--width-half);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .healthCareIllustratorBox {
+    width: 100%;
+    height: 60%;
+  }
+
+  .healthCareIllustrator {
+    width: 100%;
+    height: 100%;
+  }
+  .VideoPlayer {
+    width: 200px;
+    height: 22px;
+  }
+  .playButton {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    background-color: transparent;
+  }
+  .playButtonIconStyle {
+    width: 100%;
+    height: 100%;
+  }
+  .servicesBox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0 10px 0 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .coverPicSection {
+    height: 35vh;
+  }
+
+  .showServiceContainer {
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+
+  .upperSectionChips {
+    margin: 20px 0 0 0;
+    display: flex;
+    overflow-x: scroll; /* Enable horizontal overflow */
+    white-space: nowrap;
+    scrollbar-width: none; /* Remove scrollbar for Firefox */
+    -ms-overflow-style: none;
+  }
+
+  .upperSectionChips::-webkit-scrollbar {
+    display: none; /* Remove scrollbar for Chrome, Safari, and Opera */
+  }
+
+  .videoSection {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0 10px 0 10px;
+  }
+  .videoTextParagraphSection {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    color: var(--text-secondary-color);
+    line-height: var(--line-height-small);
+    font-size: var(--font-size-extra-small);
+    margin: 5% 0 8% 0;
+  }
+  .videoBox {
+    height: 32vh;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .videoSectionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: var(--margin-large);
+    padding: 0 20px 0 20px;
+  }
+
+  .videoTextHeaderSection {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+    color: var(--primary-color);
+    letter-spacing: 1px;
+    margin-top: 5%;
+  }
+  .videoParagraph {
+    color: var(--text-secondary-color);
+    line-height: var(--line-height-medium);
+    font-size: var(--font-size-extra-small);
+    margin: 0 0 4% 0;
+  }
+
+  .videoConverPic {
+    width: var(--width-full);
+    height: var(--height-full);
+  }
+
+  .conditionContentContainer {
+    margin-top: var(--margin-large);
+    padding: 0 20px 0 10px;
+  }
+  .applicationAddBox {
+    margin-top: var(--margin-large);
+    padding: 0 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+  }
+
+  .applicationAddTextBox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .applicationAddTextContent h2 {
+    color: var(--primary-color);
+    font-size: calc(var(--font-size-large) + 15px);
+  }
+
+  .applicationAddTextContent p {
+    font-size: var(--font-size-extra-medium);
+    line-height: var(--line-height-large);
+    color: var(--text-secondary-color);
+  }
+
+  .appDownloadButtonSection {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10%;
+  }
+
+  .healthCareIllustratorContainer {
+    display: none;
+  }
+
+  .healthCareIllustratorBox {
+    width: 600px;
+    height: 500px;
+  }
+
+  .healthCareIllustrator {
+    width: 100%;
+    height: 100%;
+  }
+  .playButton {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    background-color: transparent;
+  }
+  .playButtonIconStyle {
+    width: 100%;
+    height: 100%;
+  }
+  .serviceText {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .ourService h2 {
+    color: var(--primary-color);
+    font-size: calc(var(--font-size-large) + 15px);
+  }
+  .servicesBox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .chipsBox {
+    /* min-width: 40px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 6px 8px 6px 8px;
+    height: 16px;
+    border-radius: 8px;
+    margin: 0px 4px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    user-select: none;
+    border: 1px solid var(--primary-color);
+    background-color: #ffffff;
+    color: var(--primary-color);
+  }
+}

@@ -1,0 +1,146 @@
+@import url("../../../../constants/css-constants/colors.css");
+@import url("../../../../constants/css-constants/spacing.css");
+@import url("../../../../constants/css-constants/text.css");
+
+@media screen and (min-width: 1025px) {
+  .contactBox {
+    display: flex;
+    margin-bottom: 20px;
+    /* flex-direction: column; */
+    /* align-items: center; */
+  }
+
+  .locationBox {
+    width: 20px;
+    height: 25px;
+    margin-right: 10px;
+  }
+
+  .iconBox {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .icon {
+    width: 100%;
+    height: 100%;
+  }
+
+  .contactText {
+    color: #6c7780;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .ContactBoxSlogan {
+    color: #6c7780;
+    font-size: 12px;
+  }
+
+  .highlightWord {
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .textContent {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .contactBox {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .locationBox {
+    width: 15px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .iconBox {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+  }
+
+  .icon {
+    width: 100%;
+    height: 100%;
+  }
+
+  .contactText {
+    color: #6c7780;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .ContactBoxSlogan {
+    color: #6c7780;
+    font-size: 10px;
+  }
+
+  .highlightWord {
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .textContent {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contactBox {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .locationBox {
+    width: 22px;
+    height: 26px;
+    margin-right: 10px;
+  }
+
+  .iconBox {
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+  }
+
+  .icon {
+    width: 100%;
+    height: 100%;
+  }
+
+  .contactText {
+    color: #6c7780;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .ContactBoxSlogan {
+    color: #6c7780;
+    font-size: 12px;
+  }
+
+  .highlightWord {
+    color: var(--primary-color);
+    font-size: 20px;
+    font-weight: 800;
+  }
+
+  .textContent {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+}

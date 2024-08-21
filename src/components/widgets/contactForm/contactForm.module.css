@@ -1,0 +1,115 @@
+@import url("../../../constants/css-constants/colors.css");
+@import url("../../../constants/css-constants/spacing.css");
+@import url("../../../constants/css-constants/text.css");
+
+@media screen and (min-width: 1025px) {
+  .modalContent {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+  }
+
+  .contactUsText {
+    font-size: 30px;
+    color: var(--primary-color);
+    font-weight: 600;
+    letter-spacing: 4px;
+    margin-bottom: 12px;
+  }
+
+  .name_phone_section {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .radioButtonBox {
+    display: flex;
+    margin: 6px 0 6px 0;
+  }
+
+  .serviceTypeContainer {
+  }
+  .serviceTypeText {
+    color: rgb(58, 58, 58);
+  }
+  .buttonSection {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .modalContent {
+    width: 200px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #ffff;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
+      0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
+
+  .contactUsText {
+    font-size: 22px;
+    color: var(--primary-color);
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+  }
+
+  .name_phone_section {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .radioButtonBox {
+    display: flex;
+    margin: 6px 0 6px 0;
+  }
+
+  .serviceTypeContainer {
+  }
+  .serviceTypeText {
+    color: rgb(58, 58, 58);
+  }
+  .buttonSection {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .modalContent {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #ffff;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
+      0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
+
+  .contactUsText {
+    font-size: 22px;
+    color: var(--primary-color);
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+  }
+
+  .name_phone_section {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .radioButtonBox {
+    display: flex;
+    margin: 6px 0 6px 0;
+  }
+
+  .serviceTypeContainer {
+  }
+  .serviceTypeText {
+    color: rgb(58, 58, 58);
+  }
+  .buttonSection {
+    margin-top: 20px;
+  }
+}
